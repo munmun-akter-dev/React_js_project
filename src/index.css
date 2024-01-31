@@ -811,6 +811,7 @@ section.hero {
 .service_items_child:hover {
   border-color: transparent;
 
+
 }
 
 li.service_items_child {
@@ -824,10 +825,12 @@ li.service_items_child {
 
 .service_items_child:first-child {
   border-top: none
+
 }
 
 .service_items_child:last-child {
   border-bottom: 1px solid #383838;
+ 
 }
 
 
