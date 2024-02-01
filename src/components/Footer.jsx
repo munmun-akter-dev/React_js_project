@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import flimg from '../assets/images/nav_left_img.png'
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                         <div className="col-md-6">
                             <div className="footer_left_side">
                                 <a className="navbar-brand nav-logo d-flex" href="./index.html">
-                                    <img src="./assets/images/nav_left_img.png" alt="" />
+                                    <img src={flimg} alt="" />
                                     <span className="polio">Polio</span> </a>
                             </div>
                             <p className="footer_left_pera">
@@ -76,6 +77,9 @@ const Footer = () => {
                 </div>
 
             </section>
+          
+
+            
 
         </div>
     );

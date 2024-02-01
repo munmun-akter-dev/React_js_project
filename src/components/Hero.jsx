@@ -222,6 +222,18 @@ const Hero = () => {
                         <img src={has} alt="Star"/>
                         <p>Develop</p>
                     </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src={has} alt="Star"/>
+                        <p>Design</p>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src={has} alt="Star"/>
+                        <p>Discover</p>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src={has} alt="Star"/>
+                        <p>Develop</p>
+                    </div>
 
 
                 </div>
