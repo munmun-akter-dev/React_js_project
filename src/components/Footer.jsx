@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import flimg from '../assets/images/nav_left_img.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -26,19 +27,22 @@ const Footer = () => {
                         <div className="col-md-6">
                             <ul className="footer_head_list d-flex">
                                 <li>
-                                    <h3><a href="./index.html">Home</a></h3>
+                                    <h3>
+                                        <a ><Link to ="/home">Home</Link></a>
+                                        
+                                        </h3>
                                 </li>
                                 <li>
-                                    <p><a href="./about.html">About</a></p>
+                                    <p><Link to ="/about">About</Link></p>
                                 </li>
                                 <li>
-                                    <p><a href="./service.html">Services</a></p>
+                                    <p><Link to ="/services">Services</Link></p>
                                 </li>
                                 <li>
-                                    <p><a href="./portfolio.html">Portfolio</a></p>
+                                    <p><Link to ="/portfolio">Portfolio</Link></p>
                                 </li>
                                 <li>
-                                    <p><a href="./blog.html">Blog</a></p>
+                                    <p><Link to ="/blog">Blog</Link></p>
                                 </li>
                             </ul>
 
