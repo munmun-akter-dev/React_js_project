@@ -28,7 +28,7 @@ const Footer = () => {
                             <ul className="footer_head_list d-flex">
                                 <li>
                                     <h3>
-                                        <a ><Link to ="/home">Home</Link></a>
+                                        <a ><Link to ="/">Home</Link></a>
                                         
                                         </h3>
                                 </li>

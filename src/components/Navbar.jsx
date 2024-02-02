@@ -20,9 +20,9 @@ const Navbar = () => {
                                     <ul className="navbar-nav align-items-center gap-md-4 ms-auto mb-2 mb-lg-0">
                                         <li className="nav-item ">
                                             {/* <a className="nav-link active " aria-current="page" >
-                                            <Link to ="/home">Home</Link>
+                                            <Link to ="/">Home</Link>
                                                 </a>  */}
-                                            <Link to ="/home">Home</Link>
+                                            <Link to ="/">Home</Link>
 
                                         </li>
 

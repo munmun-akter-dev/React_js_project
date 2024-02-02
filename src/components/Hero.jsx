@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 import pbn from '../assets/images/primary_btn_img.png'
