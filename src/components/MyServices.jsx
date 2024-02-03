@@ -6,6 +6,7 @@ import wdrimg from '../assets/images/web_design_right_img.png'
 import pdlimg from '../assets/images/product_design_left_img.png'
 import rsimg from '../assets/images/right_sign.png'
 import rdsimg from '../assets/images/right_dark_sign.png'
+import { Link } from 'react-router-dom';
 
 const MyServices = () => {
     return (
@@ -21,9 +22,11 @@ const MyServices = () => {
                                 My Services</h2>
 
                             <div className="sevice_btn d-none d-lg-block"><button className="btn btn_dark dark_btn">
-                                <a className="clr_orange" href="./portfolio.html">View all works
+                                <Link to="/portfolio">View all works
+                                    <a className="clr_orange">
 
-                                </a>
+                                    </a>
+                                </Link>
 
                             </button>
                             </div>
@@ -32,9 +35,11 @@ const MyServices = () => {
                         </div>
 
                         <div className="sevice_btn d-lg-none d-block"><button className="btn btn_dark dark_btn">
-                            <a className="clr_orange" href="./portfolio.html">View all works
+                            <Link to="/portfolio">View all works
+                                <a className="clr_orange">
 
-                            </a>
+                                </a>
+                            </Link>
 
                         </button>
                         </div>
@@ -47,8 +52,10 @@ const MyServices = () => {
                                 <li className="service_items_child d-flex  justify-content-between position-relative">
 
                                     <h4 className="forth_heading">UI/UX Design</h4>
-                                    <a href="./portfolio.html"><img src={wara}
+                                    <Link to="/portfolio">
+                                    <a><img src={wara}
                                         alt="" /></a>
+                                    </Link>
 
                                     <div className="hover_img position-absolute">
 
@@ -66,8 +73,10 @@ const MyServices = () => {
 
 
                                     <h4 className="forth_heading">Graphic Design</h4>
-                                    <a href="./portfolio.html"><img src={wara}
+                                    <Link to="/portfolio">
+                                    <a><img src={wara}
                                         alt="" /></a>
+                                    </Link>
 
                                     <div className="hover_img position-absolute">
 
@@ -83,8 +92,10 @@ const MyServices = () => {
 
 
                                     <h4 className="forth_heading">Web Design</h4>
-                                    <a href="./portfolio.html"><img src={wara}
+                                    <Link to="/portfolio">
+                                    <a><img src={wara}
                                         alt="" /></a>
+                                    </Link>
 
                                     <div className="hover_img position-absolute">
 
@@ -97,8 +108,10 @@ const MyServices = () => {
 
                                 <li className=" service_items_child d-flex justify-content-between position-relative">
                                     <h4 className="forth_heading">Product Design</h4>
-                                    <a href="./portfolio.html"><img src={wara}
+                                    <Link to="/portfolio">
+                                    <a><img src={wara}
                                         alt="" /></a>
+                                    </Link>
 
                                     <div className="hover_img position-absolute">
 
@@ -143,16 +156,16 @@ const MyServices = () => {
 
                                 <ul className="pricing_list_parent">
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Website Design</a></p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Mobile Apps Design</a>
                                         </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Product Design</a> </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
@@ -160,7 +173,7 @@ const MyServices = () => {
                                         <p className="pricing_list_pera"><a className="list_white" href="">Digital Marketing</a></p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rdsimg}alt="" />
+                                        <img src={rdsimg} alt="" />
                                         <p className="pricing_list_pera"><a className="list_white" href="">Custom Support</a></p>
                                     </li>
                                 </ul>
@@ -200,20 +213,20 @@ const MyServices = () => {
 
                                 <ul className="pricing_list_parent">
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Website Design</a></p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Mobile Apps Design</a>
                                         </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Product Design</a> </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Digital Marketing</a>
                                         </p>
                                     </li>
@@ -256,25 +269,25 @@ const MyServices = () => {
 
                                 <ul className="pricing_list_parent">
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Website Design</a></p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Mobile Apps Design</a>
                                         </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Product Design</a> </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Digital Marketing</a>
                                         </p>
                                     </li>
                                     <li className="pricing_list d-flex align-items-center">
-                                        <img src={rsimg}alt="" />
+                                        <img src={rsimg} alt="" />
                                         <p className="pricing_list_pera_white"><a className="list_white" href="">Custom Support</a></p>
                                     </li>
                                 </ul>

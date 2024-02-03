@@ -4,6 +4,8 @@ import raaimg from '../assets/images/right_angle_arrow.png'
 import spfrimg from'../assets/images/selected_project_1st_right.png'
 import wraimg from '../assets/images/white_angle_right_arrow.png'
 import spsrimg from '../assets/images/selected_project_2nd_right_img.png'
+import { Link } from 'react-router-dom';
+
 
 const SelectedPoject = () => {
     return (
@@ -30,7 +32,8 @@ const SelectedPoject = () => {
 
                             </h3>
 
-                            <a href="./portfolio.html"><img src={raaimg} alt=""/></a>
+                            {/* <a href="./portfolio.html"><img src={raaimg} alt=""/></a> */}
+                            <Link to ="/portfolio"><a ><img src={raaimg} alt=""/></a></Link>
                         </div>
                         <h4 className="forth_heading d-none d-lg-block">02 - App Design</h4>
 
@@ -50,7 +53,7 @@ const SelectedPoject = () => {
 
                             </h3>
 
-                            <a href="./portfolio.html"><img src={raaimg} alt=""/></a>
+                            <Link to ="/portfolio"><a ><img src={raaimg} alt=""/></a></Link>
                         </div>
 
 
@@ -77,9 +80,11 @@ const SelectedPoject = () => {
                                 </h3>
                                 <div className="circle_img">
 
-                                    <a href="./portfolio.html">
+                                    <Link to ="/portfolio">  <a >
                                         <img src={wraimg} alt=""/>
-                                    </a>
+                                    </a></Link>
+                                    
+
                                 </div>
                             </a>
 
@@ -100,9 +105,7 @@ const SelectedPoject = () => {
 
                             </h3>
 
-                            <a href="./portfolio_details.html">
-                                <img src={raaimg}
-                                    alt="" /></a>
+                            <Link to ="/portfolio"><a ><img src={raaimg} alt=""/></a></Link>
                         </div>
 
 

@@ -3,12 +3,16 @@ import React from 'react';
 import flimg from '../assets/images/nav_left_img.png'
 import { Link } from 'react-router-dom';
 
+
+
+
+
 const Footer = () => {
     return (
         <div>
 
 
-<section className="footer bg_ft ">
+            <section className="footer bg_ft ">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -28,21 +32,21 @@ const Footer = () => {
                             <ul className="footer_head_list d-flex">
                                 <li>
                                     <h3>
-                                        <a ><Link to ="/">Home</Link></a>
-                                        
-                                        </h3>
+                                        <a ><Link to="/">Home</Link></a>
+
+                                    </h3>
                                 </li>
                                 <li>
-                                    <p><Link to ="/about">About</Link></p>
+                                    <p><Link to="/about">About</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link to ="/services">Services</Link></p>
+                                    <p><Link to="/services">Services</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link to ="/portfolio">Portfolio</Link></p>
+                                    <p><Link to="/portfolio">Portfolio</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link to ="/blog">Blog</Link></p>
+                                    <p><Link to="/blog">Blog</Link></p>
                                 </li>
                             </ul>
 
@@ -81,9 +85,11 @@ const Footer = () => {
                 </div>
 
             </section>
-          
 
-            
+
+
+
+
 
         </div>
     );

@@ -753,7 +753,6 @@ img.right_element {
 
 /* <!-- MY SERVICES SECTION START --> */
 
-
 .service {
   margin-top: 130px;
   padding-bottom: 130px;
@@ -1426,6 +1425,10 @@ li.service_items_child {
 /* <!-- RECENT BLOG SECTION END --> */
 
 /* FOOTER SECTION START */
+
+
+
+
 .footer {
   padding-top: 62px;
   padding-bottom: 130px;
@@ -2931,6 +2934,11 @@ ul.img_head.d-flex.align-items-center {
 @media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
+  .we_create.d-flex img {
+    height: 99%;
+    width: 78%;
+    padding-left: 150px;
+}
 
     section.hero {
         padding: 30px 0 0px;

@@ -53,7 +53,12 @@ import BlogPage from './pages/BlogPage';
 
 
 
+
+
+
 function App() {
+
+
 
   return (
     <>
@@ -98,6 +103,8 @@ function App() {
 
       <Footer /> */}
 
+
+
       <Router>
 
         <Routes>
@@ -107,11 +114,15 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/portfoliodetails" element={<PortfolioDetailsPage />} />
           <Route path="/blog" element={<BlogPage />} />
+
         </Routes>
+
+
 
       </Router>
 
-
+     
+ 
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import productlimg from '../assets/images/product_design_left_img.png'
+import { Link } from 'react-router-dom';
 
 const ProductDesign = () => {
     return (
@@ -51,9 +52,11 @@ const ProductDesign = () => {
                             
                                 </p>
                             <button className="btn btn_primary orange_btn">
-                                <a className="clr_white" href="./portfolio.html">View Project
+                            <Link to="/portfolio">
+                            <a className="clr_white" >View Project
 
-                                </a>
+                            </a>
+                            </Link>
 
                             </button>
 

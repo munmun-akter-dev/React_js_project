@@ -5,6 +5,7 @@ import blackarrow from '../assets//images/black-arrow.png'
 import whitearrow from '../assets//images/white-arrow.png'
 import hovern from '../assets/images/black-arrow.png'
 import hoverb from '../assets/images/white-arrow.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,9 +24,11 @@ const RecentBlog = () => {
                                 Recent Blog</h2>
 
                             <div className="sevice_btn d-none d-lg-block"><button className="btn btn_dark dark_btn">
-                                <a className="clr_orange" href="./portfolio.html">View all works
+                            <Link to="/portfolio">View all works
+                                    <a className="clr_orange">
 
-                                </a>
+                                    </a>
+                                </Link>
 
                             </button>
                             </div>
@@ -35,9 +38,11 @@ const RecentBlog = () => {
 
 
                         <div className="sevice_btn d-lg-none d-block"><button className="btn btn_dark dark_btn">
-                            <a className="clr_orange" href="./portfolio.html">View all works
+                        <Link to="/portfolio">View all works
+                                    <a className="clr_orange">
 
-                            </a>
+                                    </a>
+                                </Link>
 
                         </button>
                         </div>
@@ -62,10 +67,13 @@ const RecentBlog = () => {
                                     </h2>
 
                                     <div className="recent_arrow ">
-                                        <a href="./portfolio.html">
+                                      <Link to="/portfolio">
+                                      <a >
                                             <img className="hover_none" src={blackarrow} alt="" />
                                             <img className="hover_block" src={whitearrow} alt="" />
                                         </a>
+                                      
+                                      </Link>
 
                                     </div>
 
@@ -93,10 +101,13 @@ const RecentBlog = () => {
                                     </h2>
 
                                     <div className="recent_arrow ">
-                                        <a href="./portfolio.html">
-                                            <img className="hover_none" src={hovern} alt="" />
-                                            <img className="hover_block" src={hoverb} alt="" />
+                                    <Link to="/portfolio">
+                                      <a >
+                                            <img className="hover_none" src={blackarrow} alt="" />
+                                            <img className="hover_block" src={whitearrow} alt="" />
                                         </a>
+                                      
+                                      </Link>
                                     </div>
 
                                 </div>

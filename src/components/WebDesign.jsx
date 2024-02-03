@@ -1,5 +1,6 @@
 import React from 'react';
 import wdesignrimg from '../assets/images/web_design_right_img.png'
+import { Link } from 'react-router-dom';
 
 
 const WebDesign = () => {
@@ -46,9 +47,11 @@ const WebDesign = () => {
                         </p>
 
                         <button className="btn btn_primary orange_btn">
-                            <a className="clr_white" href="./portfolio.html">View Project
+                        <Link to="/portfolio">
+                            <a className="clr_white" >View Project
 
                             </a>
+                            </Link>
 
                         </button>
 

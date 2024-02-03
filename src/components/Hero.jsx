@@ -34,7 +34,10 @@ const Hero = () => {
 
                                 <div className="hero_btn d-flex ">
                                     <button className="btn btn_primary orange_btn">
-                                        <a className="clr_white" href="./service.html">Hire Me
+                                      
+
+                                        <a className="clr_white" >
+                                        <Link to="/services">Hire Me </Link>
                                             <img src={pbn} alt="" />
                                         </a>
 
@@ -42,7 +45,7 @@ const Hero = () => {
 
                                     <button className="btn btn_dark dark_btn">
                                         <a className="clr_white" >
-                                            <Link to ="/portfolio"> View Portfolio
+                                            <Link to="/portfolio"> View Portfolio
 
 
 
