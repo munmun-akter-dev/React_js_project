@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import gphiclimg from '../assets/images/graphic_design_left_img.png'
 import { Link } from 'react-router-dom';
