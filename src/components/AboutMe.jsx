@@ -1,9 +1,11 @@
 import amlimg from '../assets/images/about_me_left_img.png'
+import CountUp from 'react-countup';
+
 const AboutMe = () => {
     return (
         <div>
-         
-           <div className="about_me " style={{ overflowX: "hidden" }} />
+
+            <div className="about_me " style={{ overflowX: "hidden" }} />
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
@@ -30,13 +32,29 @@ const AboutMe = () => {
 
                             <ul className="about_me_items d-flex justify-content-center align-items-center">
                                 <li>
-                                    <h3><span className="number">10</span>+</h3>
+                                    <h3><span className="number">
+                                        <CountUp start={0} end={10} delay={0}>
+                                        {({ countUpRef }) => (
+                                            <div>
+                                                <span ref={countUpRef} />+
+                                            </div>
+                                        )}
+                                    </CountUp></span></h3>
                                     <p>Years of Experience <br className="d-none d-lg-block d-md-block" />in Design</p>
 
                                 </li>
                                 <img className="d-lg-block d-none" src="./assets/images/rectaingel.png" alt="" />
                                 <li>
-                                    <h3><span className="number">120</span>+</h3>
+                                    <h3><span className="number">
+                                    <CountUp start={0} end={120} delay={0}>
+                                        {({ countUpRef }) => (
+                                            <div>
+                                                <span ref={countUpRef} />+
+                                            </div>
+                                        )}
+                                    </CountUp>
+                                        
+                                        </span></h3>
                                     <p>Successfullly Projects <br className="d-none d-lg-block" />Completed </p>
                                 </li>
 
@@ -44,7 +62,18 @@ const AboutMe = () => {
 
 
                                 <li>
-                                    <h3> <span className="number">60</span>+</h3>
+                                    <h3> <span className="number">
+                                        
+                                        
+                                    <CountUp start={0} end={60} delay={0}>
+                                        {({ countUpRef }) => (
+                                            <div>
+                                                <span ref={countUpRef} />+
+                                            </div>
+                                        )}
+                                    </CountUp>
+                                        
+                                        </span></h3>
                                     <p>Global <br className="d-none d-lg-block" /> Customers</p>
                                 </li>
 
@@ -65,8 +94,8 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-      
-            
+
+
 
 
         </div>

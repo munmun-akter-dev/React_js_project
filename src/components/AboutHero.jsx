@@ -7,6 +7,8 @@ import arupic from '../assets/images/about_right_upper_pic.png'
 import arlpic from '../assets/images/about_right_lower_pic.png'
 import rtangle from '../assets/images/rectaingel.png'
 
+import CountUp from 'react-countup';
+
 
 
 
@@ -74,7 +76,7 @@ const AboutHero = () => {
                             <div className="hero_btn d-flex justify-content-center ">
                                 <button className="btn btn_primary orange_btn">
                                     <a className="clr_white" href="./service.html">Hire Me
-                                        <img src={pbimg}alt="" />
+                                        <img src={pbimg} alt="" />
                                     </a>
 
                                 </button>
@@ -90,12 +92,12 @@ const AboutHero = () => {
 
 
                                 <div className="col-lg-6 pt-4 d-none d-lg-block ">
-                                    <img className="img-fluid" src={ampic}alt=""/>
+                                    <img className="img-fluid" src={ampic} alt="" />
                                 </div>
 
                                 <div className=" col-lg-3 pt-4 d-none d-lg-block   ">
                                     <img className="img-fluid pb-5 " src={arupic} alt="" />
-                                    <img className="img-fluid d-none d-xl-block" src= {arlpic} alt="" />
+                                    <img className="img-fluid d-none d-xl-block" src={arlpic} alt="" />
 
                                 </div>
 
@@ -109,18 +111,44 @@ const AboutHero = () => {
                             <div className="about_side">
                                 <ul className="about_side_items d-flex  justify-content-center align-items-center ">
                                     <li>
-                                        <h3><span className="number">10</span>+</h3>
+                                        <h3><span className="number">
+                                            <CountUp start={1} end={10} delay={0}>
+                                                {({ countUpRef }) => (
+                                                    <div>
+                                                        <span ref={countUpRef} />+
+                                                    </div>
+                                                )}
+                                            </CountUp>
+
+                                        </span></h3>
                                         <p>Years of Experience <br className="d-none d-lg-block" />in Design</p>
                                     </li>
                                     <img className="d-lg-block d-none" src={rtangle} alt="" />
                                     <li>
-                                        <h3><span className="number">120</span>+</h3>
+                                        <h3><span className="number">
+                                            <CountUp start={1} end={120} delay={0}>
+                                                {({ countUpRef }) => (
+                                                    <div>
+                                                        <span ref={countUpRef} />+
+                                                    </div>
+                                                )}
+                                            </CountUp>
+                                        </span></h3>
                                         <p>Successfullly Projects <br className="d-none d-lg-block" />Completed </p>
                                     </li>
 
-                                    <img className="d-lg-block d-none" src={rtangle}alt="" />
+                                    <img className="d-lg-block d-none" src={rtangle} alt="" />
                                     <li>
-                                        <h3><span className="number">60</span>+</h3>
+                                        <h3><span className="number">
+                                            <CountUp start={1} end={60} delay={0}>
+                                                {({ countUpRef }) => (
+                                                    <div>
+                                                        <span ref={countUpRef} />+
+                                                    </div>
+                                                )}
+                                            </CountUp>
+
+                                        </span></h3>
                                         <p>Global Customers</p>
                                     </li>
                                 </ul>

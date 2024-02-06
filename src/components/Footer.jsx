@@ -2,8 +2,13 @@
 import React from 'react';
 import flimg from '../assets/images/nav_left_img.png'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FaBeer } from "react-icons/fa";
 
 
+import { FaArrowUp } from "react-icons/fa6";
+
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -86,8 +91,13 @@ const Footer = () => {
 
             </section>
 
+            <ScrollToTop  smooth top="100"  color="white"/>
 
 
+
+            {/* <button id="scrollBtn" title="Go to top"><i className="fa-solid fa-chevron-up"></i></button> */}
+
+        
 
 
 

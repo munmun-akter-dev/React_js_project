@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import splimg from '../assets/images/selected_project_left_img.png'
 import raaimg from '../assets/images/right_angle_arrow.png'
@@ -5,7 +6,12 @@ import spfrimg from'../assets/images/selected_project_1st_right.png'
 import wraimg from '../assets/images/white_angle_right_arrow.png'
 import spsrimg from '../assets/images/selected_project_2nd_right_img.png'
 import { Link } from 'react-router-dom';
-
+//  FOR ASO ANIMATION//
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+//  FOR ASO ANIMATION//
 
 const SelectedPoject = () => {
     return (
@@ -23,7 +29,7 @@ const SelectedPoject = () => {
                         <p className="selected_project_content">I do deep market research before starting any project the
                             gives an <br className="d-none d-lg-block"/>
                             unfair advantage to bring the best result for client.</p>
-                        <img className="img-fluid" src={splimg} alt=""
+                        <img className="img-fluid " src={splimg} alt=""
                             data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
                             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"/>
 

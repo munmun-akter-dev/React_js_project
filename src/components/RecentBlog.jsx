@@ -6,6 +6,10 @@ import whitearrow from '../assets//images/white-arrow.png'
 import hovern from '../assets/images/black-arrow.png'
 import hoverb from '../assets/images/white-arrow.png'
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 

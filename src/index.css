@@ -564,7 +564,7 @@ img.right_element {
 
 .about_me {
   /* padding-top: 100px; */
-  padding-bottom: 5px;
+  padding-bottom: 70px !important;
 }
 
 .second_heading {
@@ -1053,6 +1053,7 @@ li.service_items_child {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  padding-bottom: 70px;
 }
 
 
@@ -2381,8 +2382,26 @@ ul.img_head.d-flex.align-items-center {
 #scrollBtn:hover {
   background-color: var(--Gradient-Linear-4, linear-gradient(90deg, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 99.99%));
 }
+.scroll-to-top {
+  background: var(--Gradient, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%)) !important;
+  right: 10px !important;
+  bottom: 20px !important;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50px !important;
+  width: 60px !important;
+  height: 60px !important;
+  /* box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28); */
+  border: none;
+}
 
-@media screen and (max-width: 1440px) {}
+
+
+@media screen and (max-width: 1440px) {
+
+
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -3198,6 +3217,25 @@ ul.img_head.d-flex.align-items-center {
 }
 
 @media screen and (max-width: 425px) {
+
+  .scroll-to-top {
+    
+    right: 5px !important;
+    bottom: 5px !important;
+    width: 40px !important;
+    height: 40px !important;
+  
+  }
+  .cnt_head img {
+    width: 38%;
+}
+.we_create.d-flex img {
+  height: 85%;
+  width: 63%;
+  
+}
+
+
 
     .recent_arrow_blog {
         width: 95px;
@@ -4298,3 +4336,42 @@ ul.img_head.d-flex.align-items-center {
     }
 
 }
+
+
+/* .............FOR BOTTOM TO TOP BUTTON................  */
+/* .goToTop svg {
+  margin-bottom: 40px;
+}
+
+.goToTop {
+  height: 61px;
+  width: 61px;
+  background: var(--Gradient, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  bottom: 20px;
+  cursor: pointer;
+} */
+
+
+
+/* .scroll-to-top {
+  background: var(--Gradient, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%)) !important;
+  right: 10px !important;
+  bottom: 20px !important;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50px !important;
+  width: 60px !important;
+  height: 60px !important;
+  /* box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28); */
+  /* border: none; */
+} 
+
+/* .............FOR BOTTOM TO TOP BUTTON................  */

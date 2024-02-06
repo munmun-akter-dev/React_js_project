@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import 'animate.css';
+
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';

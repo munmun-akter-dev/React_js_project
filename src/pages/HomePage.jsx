@@ -9,10 +9,11 @@ import MyServices from '../components/MyServices';
 import Testimonial from '../components/Testimonial';
 
 import RecentBlog from '../components/RecentBlog';
+import { FaArrowUp } from 'react-icons/fa6';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='position-relative'>
             <Navbar />
             <Hero />
             <AboutMe />
@@ -21,6 +22,10 @@ const HomePage = () => {
             <Testimonial />
             <RecentBlog /> 
             <Footer />
+            
+            <div className="goToTop">
+            <FaArrowUp />
+            </div>
 
         </div>
     );

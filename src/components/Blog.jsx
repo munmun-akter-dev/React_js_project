@@ -11,6 +11,11 @@ import rcntblogl4 from '../assets/images/blog_left4.png'
 import rcntblogr4 from '../assets/images/blog_right4_img.png'
 import {Link} from 'react-router-dom';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 
 
 const Blog = () => {
