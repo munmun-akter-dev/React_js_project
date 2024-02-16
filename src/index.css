@@ -3218,6 +3218,9 @@ ul.img_head.d-flex.align-items-center {
 
 @media screen and (max-width: 425px) {
 
+.portfolio_list_group li a{
+  font-size: 12px;
+}
   .scroll-to-top {
     
     right: 5px !important;
