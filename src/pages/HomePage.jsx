@@ -16,12 +16,12 @@ const HomePage = () => {
         <div className='position-relative'>
             <Navbar />
             <Hero />
-            <AboutMe />
+            {/* <AboutMe />
             <SelectedPoject />
             <MyServices />
             <Testimonial />
             <RecentBlog /> 
-            <Footer />
+            <Footer /> */}
             
             <div className="goToTop">
             <FaArrowUp />

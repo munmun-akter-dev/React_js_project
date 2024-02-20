@@ -11,7 +11,7 @@ import hjbimg from '../assets/images/hi_jhon_right_background_img.png'
 const Hero = () => {
     return (
         <div>
-            <section className="hero">
+            <section className="hero" style={{ overflowX: "hidden" }}>
                 <div className="container">
                     <div className="row align-items-top">
                         <div className="col-lg-6">
