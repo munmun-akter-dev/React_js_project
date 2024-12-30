@@ -1,17 +1,12 @@
-
 import { Link } from 'react-router-dom';
-
 import pbn from '../assets/images/primary_btn_img.png'
 import hrimg from '../assets/images/hi_right_img.png'
 import has from '../assets/images/hero_angle_star_img.png'
 import hjbimg from '../assets/images/hi_jhon_right_background_img.png'
-
-
-
 const Hero = () => {
     return (
         <div>
-            <section className="hero" style={{ overflowX: "hidden" }}>
+            <section className="hero" style={{ overflow: "hidden" }}>
                 <div className="container">
                     <div className="row align-items-top">
                         <div className="col-lg-6">
@@ -20,49 +15,32 @@ const Hero = () => {
                                     Hi! <span className="wave">👋</span> <br className="d-none d-lg-block" />
                                     Im <span className="element">John Smith</span>
                                 </h1>
-
                                 <div className=" borderline pt-4 d-flex align-items-center ">
                                     <p className="border_text"></p>
                                     <p className="visual">Visual Designer</p>
                                 </div>
-
                                 <p className="hero_content pt-5">
                                     Im creative designer based with 10 years experience in <br className="d-none d-lg-block" />
                                     New York, and Im very passionate and dedicated to my work.
-
                                 </p>
-
                                 <div className="hero_btn d-flex ">
                                     <button className="btn btn_primary orange_btn">
-                                      
-
                                         <a className="clr_white" >
-                                        <Link to="/services">Hire Me </Link>
+                                            <Link to="/services">Hire Me </Link>
                                             <img src={pbn} alt="" />
                                         </a>
-
                                     </button>
-
                                     <button className="btn btn_dark dark_btn">
                                         <a className="clr_white" >
                                             <Link to="/portfolio"> View Portfolio
-
-
-
-
                                             </Link>
                                         </a>
-
                                     </button>
-
                                 </div>
-
                                 <h3>Follow Me:</h3>
-
                                 <ul className="hero_social_group d-flex  gap-4 ">
                                     <li>
                                         <a href="">
-
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none">
                                                 <path
@@ -74,7 +52,6 @@ const Hero = () => {
 
                                     <li>
                                         <a href="">
-
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none">
                                                 <path
@@ -83,7 +60,6 @@ const Hero = () => {
                                             </svg>
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="">
 
@@ -96,34 +72,21 @@ const Hero = () => {
                                         </a>
                                     </li>
                                 </ul>
-
                             </div>
-
                         </div>
 
                         <div className="col-lg-6">
                             <div className="hero_right_side">
-
                                 <img className="img-fluid" src={hrimg} alt="" />
                                 <img className="right_element d-none d-lg-block" src={hjbimg} alt="" />
-
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-
-
                 <section className="marquee_parent">
                     <div className="marqueeContainer">
                         <div className="marquee d-flex flex-nowrap gap-5">
-
-
                             <div className="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
-
-
                                 <div className="d-flex align-items-center gap-3">
                                     <img src={has} alt="Star" />
                                     <p>Design</p>
@@ -244,13 +207,9 @@ const Hero = () => {
                                     <img src={has} alt="Star" />
                                     <p>Develop</p>
                                 </div>
-
-
                             </div>
 
                             <div className="marque_items d-flex flex-shrink-0 justify-content-between gap-5">
-
-
                                 <div className="d-flex align-items-center gap-3">
                                     <img src={has} alt="Star" />
                                     <p>Design</p>
@@ -359,14 +318,10 @@ const Hero = () => {
                                     <img src={has} alt="Star" />
                                     <p>Design</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </section>
-
-
-
             </section>
         </div>
     );

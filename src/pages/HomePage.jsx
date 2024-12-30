@@ -20,11 +20,10 @@ const HomePage = () => {
             <SelectedPoject />
             <MyServices />
             <Testimonial />
-            <RecentBlog /> 
+            <RecentBlog />
             <Footer />
-            
             <div className="goToTop">
-            <FaArrowUp />
+                <FaArrowUp />
             </div>
 
         </div>
