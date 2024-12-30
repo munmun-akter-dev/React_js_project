@@ -2949,6 +2949,7 @@ ul.img_head.d-flex.align-items-center {
 
   .marquee_parent {
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .hero_right_side>img:first-child {
